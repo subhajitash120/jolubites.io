@@ -1,0 +1,85 @@
+body{
+    font-size: 18px;
+    color: #fff;
+    background-color: #61122f;
+    font-family:'Oxygen' sans-serif;
+   }
+   #header-nav{
+     height: 120px;
+       background-color: yellow;
+       border: radius 5px;;
+       border:0;
+   }
+   #logo-img{
+    background: url(LOGO1.jpg) no-repeat;
+    width: 0px;
+    height: 0px;
+    margin-bottom: 0;
+    
+   }
+   .navbar-brand{
+    padding-top: 25px;
+   }
+   .navbar-brand h1{
+    font-family:'Lora' serif;
+    color: #557c3e;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px  1px 1px rgb(115, 25, 25);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+   }
+   .navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+   }
+   .navbar-brand p{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+   }
+   .navbar-brand p span{
+    vertical-align:super;
+   }
+   span{
+    font-size:x-large;
+    font-weight: bolder;
+    color: #61122f;
+   }
+   .navbar-toggle {
+position: relative;
+float:right;
+padding: 9px 10px;
+margin-top: 8px;
+margin-right: 15px;
+margin-bottom: 8px;
+background-color: blue;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+   }
+   .navbar-toggle:focus {
+    outline: 0;
+   }
+   .navbar-toggle .icon-bar {
+    margin-top: 4px;
+    display:block;
+    width:22px;
+    height: 2px;
+    border-radius: 1px;
+   }
+   .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+   }
+   @media (min-width:1500px){
+    .navbar-toggle{
+        display:none;
+
+    }
+   }
+   .navbar-nav > li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+   }
